@@ -4,6 +4,9 @@ Compatibles with kubenetes platform on  Elastic Kubernetes Service , Google Kube
 
 Required :  kubectl,setup Kubeconfig authentication to cluster and  helm client
 
+This code based is define based on Jobs,  It will be termniated pod automaticaly when job completed.
+
+
 Edit my-values.yml 
 
 ``` yaml
