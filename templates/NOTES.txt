@@ -1,0 +1,6 @@
+1. Check the kubenetes command by running these commands:
+ kubectl get job katalonstudio {{ .Values.namespace }}
+ kubectl get pods --selector=job-name=katalonstudio -n {{ .Values.namespace }}
+
+2. View logs for Jobs
+kubectl logs job/katalonstudio -n {{ .Values.namespace }}
