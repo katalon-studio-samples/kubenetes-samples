@@ -1,5 +1,7 @@
 # Katalon Studio run test job in k8s samples
 
+Required :  kubectl and setup Kubeconfig to cluster and  helm client
+
 Edit my-values.yml 
 
 ``` yaml
