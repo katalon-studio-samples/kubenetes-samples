@@ -1,5 +1,3 @@
-configmap:
-  command: katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
 testcase_sources: "https://github.com/katalon-studio-samples/ci-samples.git"
 
 # if using docker images katalonstudio/katalon if specific the API key in katalon command

@@ -2,8 +2,6 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-configmap:
-  command: katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
 testcase_sources: "https://github.com/katalon-studio-samples/ci-samples.git"
 
 # if using docker images katalonstudio/katalon if specific the API key in katalon command
@@ -12,7 +10,6 @@ data:
     #!/bin/bash
     katalonc.sh -projectPath=/workspaes -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="efa98039-f501-4bc4-a7fe-39915a362358"
 
-# If you subcribe subscription on AWS Marketplace for katalon studio 
 image:
   repository: katalonstudio/katalon
   pullPolicy: IfNotPresent
