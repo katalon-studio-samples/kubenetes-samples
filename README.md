@@ -10,3 +10,5 @@ namespace: katalon
 ```
 
 Run ./katalontest.sh 
+
+View Logs ./katalonlogs.sh 
