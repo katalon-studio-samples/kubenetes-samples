@@ -6,9 +6,8 @@ testcase_sources: "https://github.com/katalon-studio-samples/ci-samples.git"
 data:
   entrypoint.sh: |-
     #!/bin/bash
-    katalonc.sh -projectPath=/workspace -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="efa98039-f501-4bc4-a7fe-39915a362358"
+    katalonc.sh -projectPath=/workspace -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
 
-# If you subcribe subscription on AWS Marketplace for katalon studio 
 image:
   repository: katalonstudio/katalon
   pullPolicy: IfNotPresent
