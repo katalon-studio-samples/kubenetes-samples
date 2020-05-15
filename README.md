@@ -1,6 +1,8 @@
 # Katalon Studio run test job in k8s samples
 
-Required :  kubectl and setup Kubeconfig to cluster and  helm client
+Compatibles with kubenetes platform on  Elastic Kubernetes Service , Google Kubernetes Engine ,Azure Kubenetes Services, other k8s platform .
+
+Required :  kubectl,setup Kubeconfig authentication to cluster and  helm client
 
 Edit my-values.yml 
 
